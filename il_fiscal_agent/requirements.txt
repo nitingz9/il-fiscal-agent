@@ -1,0 +1,35 @@
+# =============================================================================
+# Illinois Local Government Financial Data Agent - Dependencies
+# =============================================================================
+
+# Google ADK (Agent Development Kit)
+google-adk>=1.0.0
+
+# Google Cloud BigQuery
+google-cloud-bigquery>=3.0.0
+
+# Google GenAI (for Gemini models)
+google-genai>=0.1.0
+
+# LiteLLM for multi-model support (optional)
+litellm>=1.0.0
+
+# Python dotenv for environment variables
+python-dotenv>=1.0.0
+
+# Async support
+asyncio-compat>=0.1.0
+
+# Data processing
+pandas>=2.0.0
+
+# HTTP client
+httpx>=0.24.0
+
+# =============================================================================
+# Development dependencies (optional)
+# =============================================================================
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# isort>=5.0.0
