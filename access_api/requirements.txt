@@ -1,0 +1,30 @@
+# =============================================================================
+# Illinois Local Government Financial Data Agent (API-Based)
+# =============================================================================
+
+# Google ADK (Agent Development Kit)
+google-adk>=1.0.0
+
+# Google Cloud BigQuery (for BigQuery data source)
+google-cloud-bigquery>=3.0.0
+
+# Google GenAI (for Gemini models)
+google-genai>=0.1.0
+
+# Flask for REST API
+Flask>=2.0.0
+
+# HTTP client for API calls
+requests>=2.28.0
+
+# ODBC driver for MS Access (optional, for legacy data source)
+# pyodbc>=4.0.0
+
+# Python dotenv for environment variables
+python-dotenv>=1.0.0
+
+# =============================================================================
+# Development dependencies (optional)
+# =============================================================================
+# pytest>=7.0.0
+# black>=23.0.0
